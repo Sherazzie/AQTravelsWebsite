@@ -35,4 +35,59 @@
 }
 .bgimage{
     background: url("../images/homebanner.jpg") center / cover no-repeat;
+    width:auto;
+    height:550px;
+}
+.subbgimage{
+    background: url("../images/subbanner.jpg") center / cover no-repeat;
+    width:auto;
+    height:500px;
+}
+.mainquote{
+    position: absolute;
+    left:20px;
+    top:200px;
+    color:white;
+    font-size:20px;
+    
+}
+.subquote{
+    position: absolute;
+    left:100px;
+   
+}
+.bannerpadding{
+    padding-right:0px !important;
+    padding-left:0px !important;
+}
+.btn-ghost {
+    background: none;
+    border-color: #fff;
+    color: #fff;
+}
+.frontcardstyle{
+    border-radius: 25px;
+    width:295px !important;
+    height:560px !important;
+    background-color: #adcbe3;
+    text-align: center;
+    font-size:14px;
+}
+
+.backcardstyle{
+    border-radius: 25px;
+    width:295px !important;
+    height:560px !important;
+    background-color: #adcbe3;
+    text-align: center;
+    
+}
+
+.connectstyle{
+    border-radius: 25px;
+    width:275px !important;
+    height:200px !important;
+    background-color: #adcbe3;
+    text-align: center;
+    font-size:13.5px;
 }

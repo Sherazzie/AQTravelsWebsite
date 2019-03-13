@@ -45,10 +45,14 @@
 }
 .mainquote{
     position: absolute;
-    left:20px;
+    
     top:200px;
-    color:white;
-    font-size:20px;
+    background: none;
+    border-color: #fff;
+    color: #fff;
+    font-size:30px;
+    text-align: center
+
     
 }
 .subquote{
@@ -60,16 +64,12 @@
     padding-right:0px !important;
     padding-left:0px !important;
 }
-.btn-ghost {
-    background: none;
-    border-color: #fff;
-    color: #fff;
-}
+
 .frontcardstyle{
     border-radius: 25px;
     width:295px !important;
     height:560px !important;
-    background-color: #adcbe3;
+    background-image: linear-gradient(to bottom,  #e7eff6, #adcbe3, #4b86b4 90%);
     text-align: center;
     font-size:14px;
 }
@@ -78,6 +78,7 @@
     border-radius: 25px;
     width:295px !important;
     height:560px !important;
+    background-image: linear-gradient(to bottom,  #e7eff6, #adcbe3, #4b86b4);
     background-color: #adcbe3;
     text-align: center;
     
@@ -85,9 +86,26 @@
 
 .connectstyle{
     border-radius: 25px;
-    width:275px !important;
-    height:200px !important;
-    background-color: #adcbe3;
-    text-align: center;
-    font-size:13.5px;
+    width:400px !important;
+    height:420px !important;
+    background-image: linear-gradient(to top left,  #e7eff6 10%, #adcbe3, #4b86b4);
+    font-size:14px;
+    text-align:center;
+}
+
+.bggradient{
+    background-image: linear-gradient(to bottom right,  #e7eff6, #4b86b4,#4d648d);
+}
+
+.bggradient2{
+    background-image: linear-gradient(to top left,  #e7eff6 1%, #4b86b4 50%,#4d648d 90%);
+}
+
+.bggradient3{
+    background-image: linear-gradient(to top right,  #e7eff6, #4b86b4,#4d648d 90%);
+}
+
+.buttongrad{
+    background-image: linear-gradient(to right, #4b86b4,#4d648d) !important;
+    border-color:  #4b86b4;
 }

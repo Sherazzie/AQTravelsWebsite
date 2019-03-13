@@ -11,97 +11,452 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
 
 
-    <title>Sherrez and his music</title>
-
-
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <title>AQ Travels and Tours</title>
 </head>
 
+
 <body>
-    <div class="container-fluid ">
-        <div class="row">
-            <div class="col-2 border-right " style="background-color:#F8F9FA;" align="center">
-                <img src="./images/aqlogo.png" class="img-fluid" alt="Responsive image" height="50%" width="50%">
-                <br />
-                <p class="h6" style="font-size:1.74vw;">Travel and Tours</p>
-                <hr />
-                <div style="font-size:1.74vw;" align="left">
-                    <div class="row">
-                        <div class="col"> <i class="fas fa-chevron-circle-right"></i>
-                            Home</div>
-                    </div>
-                    <br />
-                    <div class="row">
-                        <div class="col"> <i class="fas fa-chevron-circle-right"></i>
-                            Hajj/Umrah</div>
-                    </div>
-                    <br />
-                    <div class="row">
-                        <div class="col"> <i class="fas fa-chevron-circle-right"></i>
-                            Tours</div>
-                    </div>
-                    <br />
-                    <div class="row">
-                        <div class="col"><i class="fas fa-chevron-circle-right"></i>
-                            Islamic Services</div>
-                    </div>
-                    <br />
-                    <div class="row">
-                        <div class="col"><i class="fas fa-chevron-circle-right"></i>
-                            Rentals</div>
-                    </div>
-                </div>
-                <hr />
 
-                <a href="https://www.facebook.com/AQTravelSg/" style="color:inherit;"><i
-                        class="fab fa-facebook-square fa-2x"></i></a>
-                <a href="https://www.youtube.com/channel/UCVW9GSr3ZcNk2GacVaufLfw" style="color:inherit;"> <i
-                        class="fab fa-youtube-square fa-2x"></i></a>
-                <a href="https://www.instagram.com/aqinstaadm/" style="color:inherit;"> <i
-                        class="fab fa-instagram fa-2x"></i></a>
-                <hr />
-                <p class="h6" style="font-size:1.74vw;">Locate us:</p>
-                <div class="row">
+    <div class="container-fluid bgimage bannerpadding">
 
-                    <div class="gmap_canvas"><iframe width="200" height="500" id="gmap_canvas"
-                            src="https://maps.google.com/maps?q=448%20Changi%20Rd%2C%20Singapore%20419975&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div>
-                    <style>
-                        .gmap_canvas {
-                            overflow: hidden;
-                            background: none !important;
-                            height: 500px;
-                            width: 250px;
-                        }
-                    </style>
+        <nav class="navbar navbar-expand-lg navbar-light headercss" style="z-index:1000 !important;">
+            <img src="images/aqlogo.png" width="45px" height="45px;" />
+            <a class="navbar-brand" href="#">Travels and Tours</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-                </div>
-            </div>
-            <div class="col-10">
-                    <div class="row" style="background-color:#F8F9FA;">
-                            <div class="col d-flex justify-content-end">
-                             <p style="font-size:1.74vw;">Reach Us: &nbsp; <a style="color:inherit;"><i class="fas fa-envelope fa-1x"></i>
-                                INFO@AQTRAVEL.COM.SG &nbsp;
-                            </a>  <a style="color:inherit;"><i class="fas fa-phone fa-flip-horizontal fa-1x"></i>
-                                INFO@AQTRAVEL.COM.SG
-                            </a><p>   
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="HajjUmrah.html">Hajj/Umrah</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Tours
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">2 To Go</a>
+                            <a class="dropdown-item" href="#">Packaged Destinations</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Islamic Services
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Aqiqah</a>
+                            <a class="dropdown-item" href="#">Badal Haji</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Rentals</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                </ul>
+                <!-- Button trigger modal -->
+                
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Reach Us</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <a style="color:inherit;"><i class="fas fa-envelope fa-1x"></i>
+                                    INFO@AQTRAVEL.COM.SG
+                                    <br />
+                                </a> <a style="color:inherit;"><i class="fas fa-phone fa-flip-horizontal fa-1x"></i>
+                                    +65 6444 4567
+                                </a>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
                             </div>
                         </div>
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+
+        <div class="row justify-content-center align-items-center">
+            <p class="mainquote">"Travel Through the Earth and Observe How He Began Creation..."<br>(Quran 29:20)
+            </p>
+        </div>
+
+    </div>
+    <div class="container-fluid bggradient" >
+        <div class="row d-flex justify-content-center align-items-center">
+            <div style="width:600px;text-align:center;">
+                <br />
+                <br />
+                <h2>May your journey be filled with Barakah and may you find what you are seeking for</u>
+                    <hr style="background-color: black;" />
+            </div>
+
+
+
+
+        </div>
+        <div class="row">
+            <div class="col-lg-4 mb-3">
+                <div class="row d-flex justify-content-center align-items-center">
+                    <div id="card">
+                        <div class="front frontcardstyle"><br /><br />
+                            <img src="images/hajjmain.jpg" class="rounded-circle"><br /><br /><br />
+                            <h2><u>Hajj Packages</u></h1>
+                                <br /><br />
+
+                                <p style="font-size:20px;">Click/Touch to find out more</p>
+                        </div>
+                        <div class="back backcardstyle">
+                            <br />
+                            <img src="images/hajjmain.jpg" class="rounded-circle">
+                            <br />
+                            <div class="row d-flex justify-content-center align-items-center">
+                                <h2><u>Hajj Packages</u></h2>
+                            </div>
+                            <br />
+                            <div class="row d-flex justify-content-center align-items-center">
+                                <p style="width:290px;text-align:justify;">We aim to satisfy all your needs and
+                                    requirements to make
+                                    your Hajj tours the most memorable in the best possible way, doing all the
+                                    planning work for you</p>
+                            </div>
+                            <br />
+                            <br />
+                            <div class="row d-flex justify-content-center align-items-center">
+                                <a href="http://aqtravel.com.sg/hajj/" class="btn btn-lg btn-info buttongrad" role="button">view
+                                    packages</a>
+                            </div>
+                            <br />
+                        </div>
+                    </div>
+                </div>
+                <br />
+            </div>
+            <div class="col-lg-4 mb-3">
+                <div class="row d-flex justify-content-center align-items-center">
+                    <div id="card1">
+                        <div class="front frontcardstyle"><br /><br />
+                            <img src="images/umrahbanner.jpg" class="rounded-circle"><br /><br /><br />
+                            <h2><u>Umrah Packages</u></h1>
+                                <br /><br />
+
+                                <p style="font-size:20px;">Click/Touch to find out more</p>
+                        </div>
+                        <div class="back backcardstyle">
+                            <br />
+                            <img src="images/umrahbanner.jpg" class="rounded-circle">
+                            <br />
+                            <div class="row d-flex justify-content-center align-items-center">
+                                <h2><u>Umrah Packages</u></h2>
+                            </div>
+                            <br />
+                            <div class="row d-flex justify-content-center align-items-center">
+                                <p style="width:290px;text-align:justify;">We offer a wide variety of Umrah packages
+                                    specifically
+                                    designed to fit your schedule and budget so you can coordinate with your friends and
+                                    relatives
+                                    in choosing the perfect package</p>
+                            </div>
+                            <br />
+                            <div class="row d-flex justify-content-center align-items-center">
+                                <a href="http://aqtravel.com.sg/hajj/" class="btn btn-lg btn-info buttongrad" role="button">view
+                                    packages</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <br />
+            </div>
+            <div class="col-lg-4 mb-3">
+                <div class="row d-flex justify-content-center align-items-center">
+                    <div id="card2">
+                        <div class="front frontcardstyle"><br /><br />
+                            <img src="images/2togobanner.jpg" class="rounded-circle"><br /><br /><br />
+                            <h2><u>2 To Go</u></h1>
+                                <br /><br />
+
+                                <p style="font-size:20px;">Click/Touch to find out more</p>
+                        </div>
+                        <div class="back backcardstyle">
+                            <br />
+                            <img src="images/2togobanner.jpg" class="rounded-circle">
+                            <br />
+                            <div class="row d-flex justify-content-center align-items-center">
+                                <h2><u>2 To Go</u></h2>
+                            </div>
+                            <br />
+                            <div class="row d-flex justify-content-center align-items-center">
+                                <p style="width:290px;text-align:justify;">Start planning for a once in a lifetime
+                                    opportunity to
+                                    travel with another round of attractive fares to fullfill a sacred promise</p>
+                            </div>
+                            <br />
+                            <br />
+                            <div class="row d-flex justify-content-center align-items-center">
+                                <a href="http://aqtravel.com.sg/hajj/" class="btn btn-lg btn-info buttongrad" role="button">view
+                                    packages</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <br />
             </div>
         </div>
     </div>
+
+    <div class="container-fluid bggradient2" >
+            <div class="row d-flex justify-content-center align-items-center">
+                    <div style="width:600px;text-align:center;">
+                        <br />
+                        <br />
+                        <h2>Media</u>
+                            <hr style="background-color: black;" />
+                    </div>
+        
+        
+        
+        
+                </div>
+        <div class="row">
+            <div class="col-lg-4 ">
+                <br />
+                <div class="row d-flex justify-content-center align-items-center"> <iframe
+                        src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FAQTravelSg%2F&tabs=timeline&width=295&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=791663150917818"
+                        width="295" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                        overflow="hidden" adapt_container_width="true" allowTransparency="true"
+                        allow="encrypted-media"></iframe></div>
+                <br />
+
+            </div>
+
+            <div class="col-lg-4">
+                <br />
+                <div class="row d-flex justify-content-center align-items-center">
+                    <blockquote class="instagram-media igformat"
+                        data-instgrm-permalink="https://www.instagram.com/p/BuprtsvFVkE/?utm_source=ig_embed&amp;utm_medium=loading"
+                        data-instgrm-version="12">
+                    </blockquote>
+                </div>
+
+
+            </div>
+
+            <div class="col-lg-4  mb-3 nopadding">
+                <br />
+
+                <a href="images/[aqtravel.com.sg][243]001.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+                    class="col-4">
+                    <img src="images/[aqtravel.com.sg][243]001.jpg" class="img-fluid" width=100 height=100>
+                </a>
+                <a href="images/[aqtravel.com.sg][200]002-th.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+                    class="col-4">
+                    <img src="images/[aqtravel.com.sg][200]002-th.jpg" class="img-fluid" width=100 height=100>
+                </a>
+                <a href="images/[aqtravel.com.sg][540]004.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+                    class="col-4">
+                    <img src="images/[aqtravel.com.sg][540]004.jpg" class="img-fluid" width=100 height=100>
+                </a>
+                <a href="images/[aqtravel.com.sg][14]005.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+                    class="col-4">
+                    <img src="images/[aqtravel.com.sg][14]005.jpg" class="img-fluid" width=100 height=100>
+                </a>
+                <a href="images/[aqtravel.com.sg][39]005-th.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+                    class="col-4">
+                    <img src="images/[aqtravel.com.sg][39]005-th.jpg" class="img-fluid" width=100 height=100>
+                </a>
+                <a href="images/[aqtravel.com.sg][32]007-th.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+                    class="col-4">
+                    <img src="images/[aqtravel.com.sg][32]007-th.jpg" class="img-fluid" width=100 height=100>
+                </a>
+                <a href="images/[aqtravel.com.sg][3]008.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+                    class="col-4">
+                    <img src="images/[aqtravel.com.sg][3]008.jpg" class="img-fluid" width=100 height=100>
+                </a>
+                <a href="images/[aqtravel.com.sg][238]009-th.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+                    class="col-4">
+                    <img src="images/[aqtravel.com.sg][238]009-th.jpg" class="img-fluid" width=100 height=100>
+                </a>
+                <a href="images/[aqtravel.com.sg][473]017.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+                    class="col-4">
+                    <img src="images/[aqtravel.com.sg][473]017.jpg" class="img-fluid" width=100 height=100>
+                </a>
+                <a href="images/[aqtravel.com.sg][297]016-th.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+                    class="col-4">
+                    <img src="images/[aqtravel.com.sg][297]016-th.jpg" class="img-fluid" width=100 height=100>
+                </a>
+                <a href="images/[aqtravel.com.sg][298]014-th.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+                    class="col-4">
+                    <img src="images/[aqtravel.com.sg][298]014-th.jpg" class="img-fluid" width=100 height=100>
+                </a>
+                <a href="images/[aqtravel.com.sg][417]013.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+                    class="col-4">
+                    <img src="images/[aqtravel.com.sg][417]013.jpg" class="img-fluid" width=100 height=100>
+                </a>
+                <a href="images/[aqtravel.com.sg][335]020-th.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+                    class="col-4">
+                    <img src="images/[aqtravel.com.sg][335]020-th.jpg" class="img-fluid" width=100 height=100>
+                </a>
+                <a href="images/[aqtravel.com.sg][289]019-th.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+                    class="col-4">
+                    <img src="images/[aqtravel.com.sg][289]019-th.jpg" class="img-fluid" width=100 height=100>
+                </a>
+                <a href="images/[aqtravel.com.sg][298]014-th.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+                    class="col-4">
+                    <img src="images/[aqtravel.com.sg][298]014-th.jpg" class="img-fluid" width=100 height=100>
+                </a>
+                <a href="images/[aqtravel.com.sg][157]015.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+                    class="col-4">
+                    <img src="images/[aqtravel.com.sg][157]015.jpg" class="img-fluid" width=100 height=100>
+                </a>
+                <br />
+            </div>
+
+        </div>
+    </div>
+    <div class="container-fluid bggradient3">
+        <br />
+        <div class="row">
+            <div class="col-lg-6  mb-3 d-flex justify-content-center align-items-center">
+                <div class="connectstyle">
+                        <h3><u>Connect with us</u></h3><br/>
+                        <a style="color:inherit;"><i
+                            class="fas fa-envelope fa-1x"></i>INFO@AQTRAVEL.COM.SG</a><br/>
+                            <a style="color:inherit;"><i
+                                class="fas fa-phone fa-flip-horizontal fa-1x"></i>+65 6444 4567 </a> <br/><br/>
+                                <a href="https://www.facebook.com/AQTravelSg/" style="color:inherit;"><i
+                                    class="fab fa-facebook-square fa-3x"></i></a> &nbsp&nbsp&nbsp
+                            <a href="https://www.youtube.com/channel/UCVW9GSr3ZcNk2GacVaufLfw" style="color:inherit;">
+                                <i class="fab fa-youtube-square fa-3x"></i></a> &nbsp&nbsp&nbsp
+                            <a href="https://www.instagram.com/aqinstaadm/" style="color:inherit;"> <i
+                                    class="fab fa-instagram fa-3x"></i></a>
+                                    <br/>
+                                    <br/>
+                               
+                            <h3><u>Address:</u></h3>     
+                            AQ Travel & Tours Pte Ltd<br />
+                            448 Changi Road<br />
+                            Wisma Indah #01-04<br />
+                            Singapore 419975<br />
+                            Business Hours:<br />
+                            Mon - Fri: 10.00 am – 5.00 pm<br />
+                            Sat: 10.00am – 2.00 pm<br />
+                            Sun & PH: Closed<br />
+                    <!--
+                    <div class="row d-flex justify-content-center align-items-center">
+                        <h3><u>Connect with us</u></h3>
+                    </div>
+                    <div class="row d-flex justify-content-center align-items-center"><a style="color:inherit;"><i
+                                class="fas fa-envelope fa-1x"></i>INFO@AQTRAVEL.COM.SG</a> </div>
+                    <div class="row d-flex justify-content-center align-items-center"><a style="color:inherit;"><i
+                                class="fas fa-phone fa-flip-horizontal fa-1x"></i>+65 6444 4567 </a> </div>
+                    <br />
+                    <div class="row d-flex justify-content-center align-items-center">
+                        <a href="https://www.facebook.com/AQTravelSg/" style="color:inherit;"><i
+                                class="fab fa-facebook-square fa-3x"></i></a> &nbsp&nbsp&nbsp
+                        <a href="https://www.youtube.com/channel/UCVW9GSr3ZcNk2GacVaufLfw" style="color:inherit;">
+                            <i class="fab fa-youtube-square fa-3x"></i></a> &nbsp&nbsp&nbsp
+                        <a href="https://www.instagram.com/aqinstaadm/" style="color:inherit;"> <i
+                                class="fab fa-instagram fa-3x"></i></a>
+
+                    </div>
+                    <br/>
+                    <div class="row" style="text-align:center">
+                           
+                            AQ Travel & Tours Pte Ltd<br />
+                            448 Changi Road<br />
+                            Wisma Indah #01-04<br />
+                            Singapore 419975<br />
+                            Business Hours:<br />
+                            Mon - Fri: 10.00 am – 5.00 pm<br />
+                            Sat: 10.00am – 2.00 pm<br />
+                            Sun & PH: Closed<br />
+        
+                    </div>
+                    -->
+                </div>
+
+
+            </div>
+
+            <div class="col-lg-6 d-flex justify-content-center">
+                <div class="responsive">
+                    <iframe width="300" height="25
+                        0" src="https://maps.google.com/maps?q=aq%20travels&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <br />
+    </div>
+    </div>
+    </div>
+    <footer class="footercss">
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2018 Copyright:
+            AQ Travels and Tours
+        </div>
+        <!-- Copyright -->
+    </footer>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+    <script src="https://www.instagram.com/embed.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+
+    
+
+    <script>
+        $(document).ready(function () {
+
+            $("#card").flip();// jQuery methods go here...
+            $("#card1").flip();// jQuery methods go here...
+            $("#card2").flip();// jQuery methods go here...
+
+        });
+        $(document).on('click', '[data-toggle="lightbox"]', function (event) {
+            event.preventDefault();
+
+            $(this).ekkoLightbox({ wrapping: false });
+        });
+    </script>
 </body>
 
 </html>

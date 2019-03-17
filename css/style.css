@@ -45,12 +45,11 @@
 }
 .mainquote{
     position: absolute;
-    
     top:200px;
     background: none;
     border-color: #fff;
     color: #fff;
-    font-size:30px;
+    font-size:25px;
     text-align: center
 
     
@@ -69,7 +68,7 @@
     border-radius: 25px;
     width:295px !important;
     height:560px !important;
-    background-image: linear-gradient(to bottom,  #e7eff6, #adcbe3, #4b86b4 90%);
+    background-image: linear-gradient(to bottom,  #e7eff6, #adcbe3, #4b86b4);
     text-align: center;
     font-size:14px;
 }
@@ -108,4 +107,92 @@
 .buttongrad{
     background-image: linear-gradient(to right, #4b86b4,#4d648d) !important;
     border-color:  #4b86b4;
+}
+
+.pkglist{
+    
+    height:250px;
+    width:700px;
+}
+.pkgtitle{
+    position:relative;
+    left:180px;
+    bottom:140px;
+
+}
+.pkgcost{
+    position:relative;
+    left:200px;
+     bottom:130px;
+     font-size:15px;
+
+}
+.pkgamt{
+    position:relative;
+    left:260px;
+    bottom:168px;
+    font-size:15px;
+
+}
+.pkgdateheader{
+    position:relative;
+    left:360px; 
+    bottom:190px;
+}
+.pkgdate{
+    position:relative;
+    left:378px; 
+    bottom:253px;
+    font-size:15px;
+}   
+.madhotelheader{
+    position:relative;
+    left:200px;
+    bottom:240px;
+
+}
+.madhotel{
+    position:relative;
+    left:225px; 
+    bottom:279px;
+    font-size:15px;
+
+}
+.mekhotelheader{
+    position:relative;
+    left:200px;
+    bottom:268px;
+}
+.mekhotel{
+    position:relative;
+    left:225px; 
+    bottom:307px;
+    font-size:15px;
+}
+.airlineheader{
+    position:relative;
+    left:200px;
+    bottom:296px;
+}
+.airline{
+    position:relative;
+    left:226px; 
+    bottom:337px;
+    font-size:15px;
+}
+.brochurebutton{
+    position:relative;
+    left:430px;
+    bottom:320px;
+
+}
+.booknow{
+    position:relative;
+    left:450px;
+    bottom:320px;
+}
+.pkgcontainer{
+    background-image: linear-gradient(to bottom,  #e7eff6, #adcbe3, #4b86b4); 
+    list-style-type: none;
+    width:750px;
 }

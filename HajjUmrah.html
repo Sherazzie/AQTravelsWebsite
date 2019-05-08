@@ -105,28 +105,104 @@
         </div>
 
     </div>
-    <div class="container-fluid bggradient ">
+    <div class="container-fluid bggradient">
         <div class="row" id="users">
-                <div class="col-4">
-                    <input class="search" placeholder="Search" />
-                    <button class="sort" data-sort="Type">
-                        Sort
-                    </button>
-                    <button class="sort" data-sort="born">
-                        Year
-                    </button>
+            <div class="col-lg-4 mb-3 d-flex justify-content-center">
+                <div class="filteroptions">
+                    <h3 class="filterheader"><u>Customise Your Search</u></h3>
+
+                    <input class="search" placeholder="Search" /><br /> <br />
+                    <div class="buttonplacement">
+                        <button type="button" class="sort btn btn-md btn-primary " data-sort="Price">
+                            Sort By Price
+                        </button>
+                        <button type="button" class=" btn btn-md btn-primary" onclick="resetList();">
+                            Clear All filters
+                        </button> <br /><br />
+                    </div>
+                    <div class="radiooptions">
+                        <div class="form-check">
+                            <input class="form-check-input filter-all " type="radio" value="all" name="ptype" id="rball"
+                                checked>
+                            <label class="form-check-label" for="rball">
+                                Show All
+                            </label>
+
+
+                        </div>
+                        <hr />
+                        <h3 class="filterheader"><u>Filter By Type</u></h3>
+                        <div class="form-check">
+                            <input class="form-check-input filter " type="radio" value="Umrah" name="ptype"
+                                id="umrahcb">
+                            <label class="form-check-label" for="umrahcb">
+                                Umrah
+                            </label>
+                            <br />
+                            <input class="form-check-input filter" type="radio" value="Hajj" name="ptype" id="hajjcb">
+                            <label class="form-check-label" for="hajjcb">
+                                Hajj
+                            </label>
+                        </div>
+                        <hr />
+                        <h3 class="filterheader"><u>Filter By Airline</u></h3>
+                        <div class="form-check">
+                            <input class="form-check-input filter " type="radio" value="Scoot" name="airline"
+                                id="scootcb">
+                            <label class="form-check-label" for="scootcb">
+                                Scoot
+                            </label>
+                            <br />
+                            <input class="form-check-input filter" type="radio" name="airline" value="Eithad Airways"
+                                id="eithadcb">
+                            <label class="form-check-label" for="eithadcb">
+                                Eithad Airways
+                            </label>
+                        </div>
+                        <hr />
+                        <h3 class="filterheader"><u>Filter By Month</u></h3>
+                        <div class="form-check">
+                            <input class="form-check-input filter " type="radio" value="January 2019 - March 2019"
+                                name="month" id="janmarcb">
+                            <label class="form-check-label" for="janmarchcb">
+                                January 2019 - March 2019
+                            </label>
+                            <br />
+                            <input class="form-check-input filter" type="radio" value="April 2019 - June 2019"
+                                name="month" id="aprjunecb">
+                            <label class="form-check-label" for="aprjunecb">
+                                April 2019 - June 2019
+                            </label><br />
+                            <input class="form-check-input filter" type="radio" value="July 2019 - August 2019"
+                                name="month" id="julyaugcb">
+                            <label class="form-check-label" for="julyaugcb">
+                                July 2019 - August 2019
+                            </label><br />
+                            <input class="form-check-input filter" type="radio" value="September 2019 - December 2019"
+                                name="month" id="septdecb">
+                            <label class="form-check-label" for="septdeccb">
+                                September 2019 - December 2019
+                            </label>
+                        </div><br />
+                    </div>
+
+
                 </div>
-                <div class="col-8">
 
-                    <ul class="list pkgcontainer">
-                    </ul>
 
+            </div>
+            <div class="col-8">
+
+                <ul class="list pkgcontainer">
+                </ul>
+                <br />
+                <ul class="pagination"></ul>
+                <div class="no-result">
+                    <h1 class="resultstyle"> No Results Found</h1>
                 </div>
-            
 
+            </div>
         </div>
-
-
     </div>
 
 
@@ -177,8 +253,7 @@
 
         <br />
     </div>
-    </div>
-    </div>
+    
     <footer class="footercss">
         <!-- Copyright -->
         <div class="footer-copyright text-center py-3">© 2018 Copyright:
@@ -203,20 +278,7 @@
 
 
 
-    <script>
-        $(document).ready(function () {
 
-            $("#card").flip();// jQuery methods go here...
-            $("#card1").flip();// jQuery methods go here...
-            $("#card2").flip();// jQuery methods go here...
-
-        });
-        $(document).on('click', '[data-toggle="lightbox"]', function (event) {
-            event.preventDefault();
-
-            $(this).ekkoLightbox({ wrapping: false });
-        });
-    </script>
 </body>
 
 </html>

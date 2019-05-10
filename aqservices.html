@@ -1,0 +1,434 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
+
+
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <title>AQ Travels and Tours</title>
+</head>
+
+
+<body>
+
+  <div class="container-fluid bgimage bannerpadding">
+
+   
+      <nav class="navbar navbar-expand-lg navbar-light headercss" style="z-index:1000 !important;">
+          <img src="images/aqlogo.png" width="45px" height="45px;" />
+          <a class="navbar-brand" href="index.html">Travels and Tours</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                      <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="HajjUmrah.html">Hajj/Umrah</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Tours
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">2 To Go</a>
+                          <a class="dropdown-item" href="#">Packaged Destinations</a>
+                      </div>
+                  </li>
+                  <li class="nav-item">
+                          <a class="nav-link" href="aqservices.html">AQ Services</a>
+                      </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">About Us</a>
+                  </li>
+              </ul>
+              <!-- Button trigger modal -->
+              
+
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                  aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                          <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Reach Us</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true">&times;</span>
+                              </button>
+                          </div>
+                          <div class="modal-body">
+                              <a style="color:inherit;"><i class="fas fa-envelope fa-1x"></i>
+                                  INFO@AQTRAVEL.COM.SG
+                                  <br />
+                              </a> <a style="color:inherit;"><i class="fas fa-phone fa-flip-horizontal fa-1x"></i>
+                                  +65 6444 4567
+                              </a>
+                          </div>
+                          <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+          </div>
+      </nav>
+
+    <div class="row justify-content-center align-items-center">
+      <p class="mainquote">"Travel Through the Earth and Observe How He Began Creation..."<br>(Quran 29:20)
+      </p>
+    </div>
+
+  </div>
+  <div class="container-fluid bggradient">
+    <br />
+
+    <div class="row">
+      <div class="col-lg-4 mb-3 d-flex justify-content-end ">
+        <div class="servicessidebar bggradient">
+          <h2 class="filterheader"><u>AQ Services</u></h2>
+
+          <br />
+          <button onclick="createaqiqahdetails()" type="button"
+            class="servicesbutton list-group-item list-group-item-action">
+            AQIQAH
+          </button>
+          <br />
+            <table class="table table-bordered table-sm">
+              <thead>
+                <tr class="servicesbutton">
+                  <th scope="col">Gender</th>
+                  <th scope="col">Aqiqah Pricing</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="servicesbutton">
+                  <th scope="row">Girl</th>
+                  <td><i class="far fa-money-bill-alt"></i>&nbsp;Price(SGD): 210</td>
+                </tr>
+                <tr class="servicesbutton">
+                  <th scope="row">Boy</th>
+                  <td><i class="far fa-money-bill-alt"></i>&nbsp;Price(SGD): 410</td>
+                </tr>
+              </tbody>
+            </table>
+            <a href="aqservicesenquiry.html" class="btn btn-primary btn-md" style="position: relative; left:70px;">Aqiqah Enquiry</a>
+            <br/>
+            <br/>
+          <button onclick="createbadaldetails()" type="button"
+            class=" servicesbutton list-group-item list-group-item-action">BADAL
+            HAJI</button>
+          <br />
+          <table class="table table-bordered table-sm ">
+            <tbody>
+              <tr class="servicesbutton">
+                <th scope="row"> Pricing</th>
+                <td><i class="far fa-money-bill-alt"></i>&nbsp;Price(SGD):1500</td>
+              </tr>
+
+            </tbody>
+          </table>
+          <a href="aqservicesenquiry.html" class="btn btn-primary btn-md" style="position: relative; left:60px;">Badal Haji Enquiry</a>
+        </div>
+      </div>
+      <div class="col-lg-8 mb-3 d-flex align-items-center" id="dynamiccontent">
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid bggradient3">
+    <br />
+    <div class="row">
+      <div class="col-lg-6  mb-3 d-flex justify-content-center align-items-center">
+        <div class="connectstyle">
+          <h3><u>Connect with us</u></h3><br />
+          <a style="color:inherit;"><i class="fas fa-envelope fa-1x"></i>INFO@AQTRAVEL.COM.SG</a><br />
+          <a style="color:inherit;"><i class="fas fa-phone fa-flip-horizontal fa-1x"></i>+65 6444 4567 </a>
+          <br /><br />
+          <a href="https://www.facebook.com/AQTravelSg/" style="color:inherit;"><i
+              class="fab fa-facebook-square fa-3x"></i></a> &nbsp&nbsp&nbsp
+          <a href="https://www.youtube.com/channel/UCVW9GSr3ZcNk2GacVaufLfw" style="color:inherit;">
+            <i class="fab fa-youtube-square fa-3x"></i></a> &nbsp&nbsp&nbsp
+          <a href="https://www.instagram.com/aqinstaadm/" style="color:inherit;"> <i
+              class="fab fa-instagram fa-3x"></i></a>
+          <br />
+          <br />
+
+          <h3><u>Address:</u></h3>
+          AQ Travel & Tours Pte Ltd<br />
+          448 Changi Road<br />
+          Wisma Indah #01-04<br />
+          Singapore 419975<br />
+          Business Hours:<br />
+          Mon - Fri: 10.00 am – 5.00 pm<br />
+          Sat: 10.00am – 2.00 pm<br />
+          Sun & PH: Closed<br />
+          <!--
+                    <div class="row d-flex justify-content-center align-items-center">
+                        <h3><u>Connect with us</u></h3>
+                    </div>
+                    <div class="row d-flex justify-content-center align-items-center"><a style="color:inherit;"><i
+                                class="fas fa-envelope fa-1x"></i>INFO@AQTRAVEL.COM.SG</a> </div>
+                    <div class="row d-flex justify-content-center align-items-center"><a style="color:inherit;"><i
+                                class="fas fa-phone fa-flip-horizontal fa-1x"></i>+65 6444 4567 </a> </div>
+                    <br />
+                    <div class="row d-flex justify-content-center align-items-center">
+                        <a href="https://www.facebook.com/AQTravelSg/" style="color:inherit;"><i
+                                class="fab fa-facebook-square fa-3x"></i></a> &nbsp&nbsp&nbsp
+                        <a href="https://www.youtube.com/channel/UCVW9GSr3ZcNk2GacVaufLfw" style="color:inherit;">
+                            <i class="fab fa-youtube-square fa-3x"></i></a> &nbsp&nbsp&nbsp
+                        <a href="https://www.instagram.com/aqinstaadm/" style="color:inherit;"> <i
+                                class="fab fa-instagram fa-3x"></i></a>
+
+                    </div>
+                    <br/>
+                    <div class="row" style="text-align:center">
+                           
+                            AQ Travel & Tours Pte Ltd<br />
+                            448 Changi Road<br />
+                            Wisma Indah #01-04<br />
+                            Singapore 419975<br />
+                            Business Hours:<br />
+                            Mon - Fri: 10.00 am – 5.00 pm<br />
+                            Sat: 10.00am – 2.00 pm<br />
+                            Sun & PH: Closed<br />
+        
+                    </div>
+                    -->
+        </div>
+
+
+      </div>
+
+      <div class="col-lg-6 d-flex justify-content-center">
+        <div class="responsive">
+          <iframe width="300" height="25
+                        0" src="https://maps.google.com/maps?q=aq%20travels&t=&z=13&ie=UTF8&iwloc=&output=embed"
+            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <br />
+  </div>
+  </div>
+  </div>
+  <footer class="footercss">
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2018 Copyright:
+      AQ Travels and Tours
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+  <script src="https://www.instagram.com/embed.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+
+
+
+  <script>
+    $(document).ready(function () {
+
+      $("#card").flip();// jQuery methods go here...
+      $("#card1").flip();// jQuery methods go here...
+      $("#card2").flip();// jQuery methods go here...
+
+    });
+    $(document).on('click', '[data-toggle="lightbox"]', function (event) {
+      event.preventDefault();
+
+      $(this).ekkoLightbox({ wrapping: false });
+    });
+  </script>
+  <script  type="text/javascript">
+    window.onload=createaqiqahdetails;
+    function createaqiqahdetails() {
+      deletetest();
+      var accordiondiv = document.createElement("div");
+      accordiondiv.id = "accordion"
+      accordiondiv.innerHTML = document.getElementById('aqiqahinfo').innerHTML;
+      document.getElementById("dynamiccontent").appendChild(accordiondiv);
+    }
+    function createbadaldetails() {
+      deletetest();
+      var accordiondiv = document.createElement("div");
+      accordiondiv.id = "accordion"
+      accordiondiv.innerHTML = document.getElementById('badalhaji').innerHTML;
+      document.getElementById("dynamiccontent").appendChild(accordiondiv);
+    }
+
+    function deletetest() {
+      var list = document.getElementById("dynamiccontent");   // Get the <ul> element with id="myList"
+      list.removeChild(list.childNodes[0]);
+    }
+
+  </script>
+  <script id="aqiqahinfo" type="text/html">
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        What is Aqiqah?
+                      </button>
+                    </h5>
+                  </div>
+              
+                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body">
+                        Aqiqah, an Islamic terminology, is defined as the animal that is slaughtered on the occasion of child birth. For the child there should be aqiqah, on behalf of the child make sacrifice and remove the hair.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        When should Aqiqah be performed?
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body">
+                        The preferable method for Aqiqah is that it should be performed on the seventh day if not then the 14th or 21st.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        What is the purpose of Aqiqah?
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                    <div class="card-body">
+                        The performance of Aqiqah is highly encouraged. It is to be performed by the parents or the guardians of the child. Prophet Muhammad (peace be upon him) and his companions used to perform Aqiqah when they were bestowed with a newborn. There are many benefits in the performance of Aqiqah. One is the announcing the birth of the baby. Being bestowed a child is a great blessing from the Creator. Another purpose is inviting family members, neighbours, and friends to celebrate the blessed occasion. The poor should be included in the celebration by offering them food and meat served on this occasion.                    </div>
+                  </div>
+                  <div class="card">
+                      <div class="card-header" id="headingFour">
+                        <h5 class="mb-0">
+                          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                              Types of Animals to be slaughtered?
+                          </button>
+                        </h5>
+                      </div>
+                      <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                        <div class="card-body">
+                            The following is a hadith of the Prophet Muhammad (peace be upon him) where he advised Aqiqah a goat/sheep.
+                            <br/>
+                            Narrated Umm Kurz: The Prophet of Allah (peace be upon him) said: Two sheep which resemble each other are to be sacrificed for a boy and one for a girl. (Sunan Abu Dawood Book 15, No. 2830)
+                        </div>
+                      </div>
+                      <div class="card">
+                          <div class="card-header" id="headingFive">
+                            <h5 class="mb-0">
+                              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                  The condition of the animal for Aqiqah?
+                              </button>
+                            </h5>
+                          </div>
+                          <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                            <div class="card-body">
+                                The condition of the animals in Aqiqah is the same as the conditions for the animals in Qurbani. The animals to be slaughtered must be a goats, cows or camels. For camels, it must be older than 6 years, for cows the age must be older than 3 years and for goats, it must be older than 2 years. They must be free from any form of handicap such as blind, sick, limp and undernourished. The animals must be slaughtered in the appropriate humane ways.
+                            </div>
+                          </div>
+                          <div class="card">
+                              <div class="card-header" id="headingSix">
+                                <h5 class="mb-0">
+                                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                    Where is the Aqiqah done?
+                                  </button>
+                                </h5>
+                              </div>
+                              <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+                                <div class="card-body">
+                                    Aqiqah will do done at Jakarta Indonesia in support of ibadarrahman an Islamic boarding school in Indonesia. You may view their website here.
+                                </div>
+                              </div>
+                              <div class="card">
+                                  <div class="card-header" id="headingSeven">
+                                    <h5 class="mb-0">
+                                      <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                        What will you receive?
+                                      </button>
+                                    </h5>
+                                  </div>
+                                  <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
+                                    <div class="card-body">
+                                        Before the Aqiqah is done you will be sent an image of the sheep with his or her name attached. A certificate will be provided upon request.
+                                    </div>
+                                  </div>
+                </div>
+              
+    </script>
+  <script id="badalhaji" type="text/html">
+
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h5 class="mb-0">
+              <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  What is Badal Haji?
+              </button>
+            </h5>
+          </div>
+      
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card-body">
+                Badal Haji is when someone gets a compulsory Hajj performed on his or her behalf by another person. Badal Haji may be performed for another due to an ongoing illness for which there is no hope of a cure, or because of old age and the like. If there is the hope of recovery from a sickness, then the person should wait until Allah heals him or her and then perform Hajj on their own.In order to have Hajj Badal done on behalf of a living person, permission must be given from the person him or herself.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Hadith on Badal Haji
+              </button>
+            </h5>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+            <div class="card-body">
+                It was reported from Ibn ‘Abbas (may Allah be pleased with them both) that a woman from Juhaynah came to the Prophet (peace and blessings of Allah be upon him) and said:“My mother vowed to go for Hajj, but she did not go for Hajj before she died. Should I do Hajj on her behalf?” He said, “Yes, do Hajj on her behalf. Do you not think that if your mother was in debt you would pay it off for her? Pay off the debt that is owed to Allah, for Allah is more deserving that what is owed to Him should be paid off.” (Narrated by al-Bukhari, 1754).
+
+                It was narrated from Ibn ‘Abbas that the Messenger of Allah (peace and blessings of Allah be upon him) heard a man saying “Labbayka ‘an Shubrumah (At your service, O Allaah, on behalf of Shubrumah).” The Messenger of Allah (peace and blessings of Allah be upon him) said, “Who is Shubrumah?” He said, “A relative of mine.” The Prophet (peace and blessings of Allah be upon him) said, “Have you ever done Hajj before?” He said, “No.” he said, “Do this Hajj for yourself, then do Hajj on behalf of Shubrumah.” (Narrated by Abu Dawood, 1811; Ibn Majah, 2903)
+            </div>
+          </div>
+        </div>
+   
+        </div>
+      
+</script>
+</body>
+
+</html>

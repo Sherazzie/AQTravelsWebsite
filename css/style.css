@@ -1,3 +1,49 @@
+html  {
+
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+
+}
+
+.servicesbutton{
+    background-image: linear-gradient(to right, #adcbe3, #4b86b4 90%);
+    
+}
+
+.servicessidebar{
+    width:290px;
+    height:500px;
+    background-image: linear-gradient(to bottom,  #e7eff6, #adcbe3, #4b86b4);
+}
+.rtourdesign{
+    background-image: linear-gradient(to bottom,  #e7eff6, #adcbe3, #4b86b4);
+    position:relative;
+    top:10px;
+}
+.form-group > .form-control
+{
+    width:85% !important;
+    position:relative;
+    left:25px;
+}
+.form-group >label
+{
+    position:relative;
+    left:25px;
+    
+}
+
+
+.form-group >button,span
+{
+    position:relative;
+    left:130px;
+}
+
+
 .responsive{
     width:100%;
     height:0;
@@ -104,6 +150,7 @@
     background-image: linear-gradient(to top right,  #e7eff6, #4b86b4,#4d648d 90%);
 }
 
+
 .buttongrad{
     background-image: linear-gradient(to right, #4b86b4,#4d648d) !important;
     border-color:  #4b86b4;
@@ -116,80 +163,82 @@
 }
 .pkgtitle{
     position:relative;
-    left:180px;
-    bottom:140px;
+    left:40px;
+    bottom:45px;
+    font-size: 25px;
+    font-weight:bold;
 
 }
 .pkgcost{
     position:relative;
     left:200px;
-     bottom:130px;
+     bottom:100px;
      font-size:15px;
 
 }
 .pkgamt{
     position:relative;
     left:300px;
-    bottom:168px;
+    bottom:138px;
     font-size:15px;
 
 }
 .pkgdateheader{
     position:relative;
     left:360px; 
-    bottom:190px;
+    bottom:160px;
 }
 .pkgdate{
     position:relative;
     left:378px; 
-    bottom:253px;
+    bottom:223px;
     font-size:15px;
 }   
 .madhotelheader{
     position:relative;
     left:200px;
-    bottom:240px;
+    bottom:210px;
 
 }
 .madhotel{
     position:relative;
     left:225px; 
-    bottom:279px;
+    bottom:249px;
     font-size:15px;
 
 }
 .mekhotelheader{
     position:relative;
     left:200px;
-    bottom:268px;
+    bottom:238px;
 }
 .mekhotel{
     position:relative;
     left:225px; 
-    bottom:307px;
+    bottom:277px;
     font-size:15px;
 }
 .airlineheader{
     position:relative;
     left:200px;
-    bottom:296px;
+    bottom:266px;
 }
 .airline{
     position:relative;
     left:226px; 
-    bottom:337px;
+    bottom:307px;
     font-size:15px;
 }
 .brochurebutton{
     position:relative;
     left:430px;
-    bottom:320px;
+    bottom:290px;
 
 }
 .booknow{
     position:relative;
     left:450px;
-    bottom:320px;
+    bottom:290px;
 }
 .pkgcontainer{
     background-image: linear-gradient(to bottom,  #e7eff6, #adcbe3, #4b86b4); 
@@ -200,7 +249,7 @@
 }
 .filteroptions{
     background-image: linear-gradient(to bottom,  #e7eff6, #adcbe3, #4b86b4); 
-    width:310px;
+    width:290px;
     
 
 }
@@ -210,27 +259,30 @@
     position: relative;
     bottom:30px;
     height:250px;
+    width:750px;
     
     
 }
 .resultstyle{
     position: relative;
     top:80px;
-    left:190px;
+    left:220px;
 }
 .search{
-    width:290px;
+    width:260px;
     position: relative;
-    left:10px;
+    left:15px;
+   
+   
 }
 .filterheader{
-    position: relative;
+    
     text-align: center;
  
 }
 .buttonplacement{
     position: relative;
-    left:45px;
+    left:20px;
 }
 .radiooptions{
     font-size:20px;
@@ -255,3 +307,108 @@
     padding:5px;
     align-items: center
 }
+@media only screen and (max-width: 790px) {
+ 
+   .pkgcontainer{
+       width:290px;
+       margin-left:auto;
+       margin-right:auto;
+    
+      
+   } 
+   .pagination{
+       width:290px;
+       margin-left:auto;
+       margin-right:auto;
+   }
+   .mq{
+       width:50px;
+       height:50px;
+       
+       left:-35px;
+   }
+   .pkgtitle{
+       font-size:14.5px;
+   
+       top:10px;
+       left:-88px;
+   }
+   .pkgcost{
+    position:relative;
+    left:30px;
+     bottom:5px;
+     font-size:13px;
+
+}
+    .pkgamt{
+    position:relative;
+    left:115px;
+    bottom:40px;
+    font-size:13.5px;
+
+}
+    .pkgdateheader{
+    position:relative;
+    left:32px; 
+    bottom:40px;
+}
+    .pkgdate{
+    position:relative;
+    left:50px; 
+    bottom:103px;
+    font-size:13.5px;
+}   
+.madhotelheader{
+    position:relative;
+    left:30px;
+    bottom:100px;
+
+}
+.madhotel{
+    position:relative;
+    left:50px;
+    bottom:140px;
+    font-size:13.5px;
+
+}
+.mekhotelheader{
+    position:relative;
+    left:30px;
+    bottom:135px;
+}
+.mekhotel{
+    position:relative;
+    left:51px; 
+    bottom:175px;
+    font-size:13.5px;
+}
+.airlineheader{
+    position:relative;
+    left:30px;
+    bottom:170px;
+}
+.airline{
+    position:relative;
+    left:52px; 
+    bottom:210px;
+    font-size:13.5px;
+}
+.brochurebutton{
+    position:relative;
+    left:30px;
+    bottom:200px;
+
+}
+.booknow{
+    position:relative;
+    left:50px;
+    bottom:200px;
+}
+
+  }
+  @media only screen and (max-width: 790px) {
+    .servicessidebar{
+        margin-left:auto;
+        margin-right:auto;
+    }
+  }
